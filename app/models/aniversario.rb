@@ -4,6 +4,6 @@ class Aniversario < ActiveRecord::Base
   end
 
   def dia_br=(dia_en)
-    "#{dia_en[6..9]}-#{dia_en[3..4]}-#{dia_en[0..1]}"
+    self.dia = "#{dia_en[6..9]}-#{dia_en[3..4]}-#{dia_en[0..1]}"
   end
 end
