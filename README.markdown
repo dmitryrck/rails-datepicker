@@ -1,12 +1,3 @@
----
-layout: post
-title: "Rails e Jquery-ui Datepicker"
-date: 2011-09-06 21:20
-comments: true
-published: true
-categories: [rails, jquery, jquery-ui]
----
-
 # Instalar o jquery e jquery-ui
 
 Baixar o jquery e o jquery-ui para o diretório ``public``, mas se vc quiser
