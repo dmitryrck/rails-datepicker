@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Nome:</b>
+  <%= @aniversario.nome %>
+</p>
+
+<p>
+  <b>Dia:</b>
+  <%= @aniversario.dia %>
+</p>
+
+
+<%= link_to 'Edit', edit_aniversario_path(@aniversario) %> |
+<%= link_to 'Back', aniversarios_path %>

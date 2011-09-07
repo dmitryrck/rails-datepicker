@@ -1,0 +1,25 @@
+<%= form_for(@aniversario) do |f| %>
+  <% if @aniversario.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@aniversario.errors.count, "error") %> prohibited this aniversario from being saved:</h2>
+
+      <ul>
+      <% @aniversario.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :nome %><br />
+    <%= f.text_field :nome %>
+  </div>
+  <div class="field">
+    <%= f.label :dia %><br />
+    <%= f.text_field :dia %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

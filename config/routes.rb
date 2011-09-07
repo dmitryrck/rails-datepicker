@@ -1,4 +1,6 @@
 RailsDate::Application.routes.draw do
+  resources :aniversarios
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
